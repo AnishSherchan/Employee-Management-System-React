@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/employee_management/static/css/main.d442bed8.css",
+    "main.js": "/employee_management/static/js/main.0cc3ea69.js",
+    "index.html": "/employee_management/index.html",
+    "main.d442bed8.css.map": "/employee_management/static/css/main.d442bed8.css.map",
+    "main.0cc3ea69.js.map": "/employee_management/static/js/main.0cc3ea69.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d442bed8.css",
+    "static/js/main.0cc3ea69.js"
+  ]
+}
