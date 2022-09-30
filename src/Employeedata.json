@@ -1,0 +1,26 @@
+[
+  {
+    "emp_id": "1343",
+    "emp_name": "Anish",
+    "location": "Samakushi",
+    "gender": "Male"
+  },
+  {
+    "emp_id": "2332",
+    "emp_name": "Abhigyan",
+    "location": "Boudha",
+    "gender": "Male"
+  },
+  {
+    "emp_id": "3456",
+    "emp_name": "Shriya",
+    "location": "Budhanilkantha",
+    "gender": "Female"
+  },
+  {
+    "emp_id": "4787",
+    "emp_name": "Aryan",
+    "location": "Sankhamul",
+    "gender": "Male"
+  }
+]

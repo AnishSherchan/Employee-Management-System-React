@@ -1,0 +1,18 @@
+.button {
+  background-color: #607fe8;
+}
+.buttonsec {
+  background-color: #474c52;
+}
+.custombutton {
+  color: white;
+  padding: 10px 25px;
+  border-radius: 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
