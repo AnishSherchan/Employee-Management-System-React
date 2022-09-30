@@ -1,5 +1,6 @@
 {
   "name": "employee_management",
+  "homepage": "https://AnishSherchan.github.io/employee_management",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -29,6 +30,8 @@
   },
   "scripts": {
     "start": "react-scripts start",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
@@ -51,10 +54,11 @@
     ]
   },
   "devDependencies": {
-    "autoprefixer": "^10.4.12",
-    "postcss": "^8.4.16",
-    "tailwindcss": "^3.1.8",
     "@typescript-eslint/eslint-plugin": "^4.29.1",
-    "@typescript-eslint/parser": "^4.29.1"
+    "@typescript-eslint/parser": "^4.29.1",
+    "autoprefixer": "^10.4.12",
+    "gh-pages": "^4.0.0",
+    "postcss": "^8.4.16",
+    "tailwindcss": "^3.1.8"
   }
 }
