@@ -1,5 +1,6 @@
 import { toast } from "react-toastify";
 import React, { useState } from "react";
+import EmployeeData from "../../Employeedata.json";
 import BTN from "../../components/buttons/primary";
 import BTNSec from "../../components/buttons/secondary";
 import { useHistory } from "react-router-dom";
@@ -34,8 +35,9 @@ const Signup = () => {
           // adding token in localStorage and pushing userdetails for login credentials
           localStorage.setItem("token", "1012344");
           localStorage.setItem("userDetails", JSON.stringify(inputs));
+          localStorage.setItem("Emp-data", JSON.stringify(EmployeeData));
           // Pushing user to dashboard
-          history.push("/dashboard");
+          history.push("/Employee-Management-System-React/dashboard");
           // Sucess toast
           toast.success("Signed Up Successfully", {
             position: "top-center",

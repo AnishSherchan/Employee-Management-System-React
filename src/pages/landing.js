@@ -25,10 +25,10 @@ const landing = () => {
         </div>
       </div>
       <div className="flex justify-center mt-10 space-x-10">
-        <Link to="/signup">
+        <Link to="/Employee-Management-System-React/signup">
           <PrimaryBtn title="Get Started !" />
         </Link>
-        <Link to="/login">
+        <Link to="/Employee-Management-System-React/login">
           <SecondaryBtn title="Login !" />
         </Link>
       </div>

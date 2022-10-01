@@ -49,7 +49,7 @@ const NewEmployee = ({ empdata, NewUpdate }) => {
       <Modal
         title="Edit Employee"
         visible={isEditing}
-        okText="Done"
+        okText="Close modal!"
         onCancel={() => {
           resetEditing();
         }}
@@ -93,7 +93,7 @@ const NewEmployee = ({ empdata, NewUpdate }) => {
           </Form.Item>
           <Form.Item wrapperCol={{ offset: 8, span: 16 }}>
             <Button type="primary" htmlType="submit">
-              Submit
+              Add new Employee
             </Button>
           </Form.Item>
         </Form>

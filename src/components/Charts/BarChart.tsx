@@ -70,8 +70,8 @@ const BarChart = () => {
     ],
   };
   return (
-    <div className="p-4 bg-white rounded-3xl">
-      <Bar width="550px" height="300px" options={options} data={data} />
+    <div className="p-4 flex items-center md:w-96 md:h-64 bg-white rounded-3xl">
+      <Bar options={options} data={data} />
     </div>
   );
 };

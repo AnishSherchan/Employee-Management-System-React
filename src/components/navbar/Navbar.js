@@ -32,7 +32,7 @@ const Navbar = () => {
   }, [location, token]);
   return (
     <div className={styles.container}>
-      <Link to="/">
+      <Link to="/Employee-Management-System-React/">
         <div className="flex justify-center items-center">
           <i class="fa-solid fa-people-roof text-xl"></i>
           <h2 className="text-2xl text-center ml-2 ">
@@ -42,27 +42,27 @@ const Navbar = () => {
       </Link>
       <ul>
         {token.length != 0 && (
-          <Link to="/dashboard">
+          <Link to="/Employee-Management-System-React/dashboard">
             <li>Dashboard</li>
           </Link>
         )}
         {token.length != 0 && (
-          <Link to="/employee">
+          <Link to="/Employee-Management-System-React/employee">
             <li>Employees</li>
           </Link>
         )}
         {token.length != 0 && (
-          <Link to="/">
+          <Link to="/Employee-Management-System-React/">
             <li onClick={SignOut}>Sign Out</li>
           </Link>
         )}
         {token.length == 0 && (
-          <Link to="/login">
+          <Link to="/Employee-Management-System-React/login">
             <li>Login</li>
           </Link>
         )}
         {token.length == 0 && (
-          <Link to="/signup">
+          <Link to="/Employee-Management-System-React/signup">
             <li>Sign Up</li>
           </Link>
         )}

@@ -15,11 +15,27 @@ function App() {
       <Navbar />
       <ToastContainer />
       <Switch>
-        <Route path="/" exact component={Landing} />
-        <Route path="/login" component={Login} />
-        <Route path="/signup" component={Signup} />
-        <Route path="/dashboard" component={Dashboard} />
-        <Route path="/employee" component={Employees} />
+        <Route
+          path="/Employee-Management-System-React/"
+          exact
+          component={Landing}
+        />
+        <Route
+          path="/Employee-Management-System-React/login"
+          component={Login}
+        />
+        <Route
+          path="/Employee-Management-System-React/signup"
+          component={Signup}
+        />
+        <Route
+          path="/Employee-Management-System-React/dashboard"
+          component={Dashboard}
+        />
+        <Route
+          path="/Employee-Management-System-React/employee"
+          component={Employees}
+        />
         <Route path="*" component={Page404} />
         <Landing />
       </Switch>

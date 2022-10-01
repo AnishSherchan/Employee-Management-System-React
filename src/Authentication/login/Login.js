@@ -35,7 +35,7 @@ const Login = () => {
         ) {
           try {
             localStorage.setItem("token", "1012344");
-            history.push("/dashboard");
+            history.push("/Employee-Management-System-React/dashboard");
             toast.success("Logged in Successfully", {
               position: "top-right",
               autoClose: 3000,

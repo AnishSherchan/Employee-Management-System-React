@@ -90,7 +90,7 @@ const Dashboard = () => {
             </h1>
           </div>
         </div>
-        <div className="flex m-8 justify-evenly">
+        <div className="flex flex-wrap m-8 justify-evenly">
           <Chartdata />
           <DounatChart totalEmp={totalEmp} />
         </div>
